@@ -1,14 +1,12 @@
+<!-- Hallmark · component: favicon · genre: editorial · theme: AppRebase Operating Clarity
+ * states: static asset · contrast: pass
+ * critique: P5 H4 E5 S5 R5 V4
+ -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ARB">
   <rect width="64" height="64" rx="12" fill="#0b0f17"/>
-  <text
-    x="32"
-    y="37"
-    fill="#ffffff"
-    font-family="Arial Black, Archivo, Arial, sans-serif"
-    font-size="21"
-    font-weight="900"
-    letter-spacing="0"
-    text-anchor="middle"
-    dominant-baseline="middle"
-  >ARB</text>
+  <g fill="#ffffff" fill-rule="evenodd" shape-rendering="crispEdges">
+    <path d="M7 47V22h3v-5h9v5h3v25h-5V36h-5v11H7Zm5-16h5v-9h-5v9Z"/>
+    <path d="M25 47V17h11v4h4v13h-4v4h3v9h-5v-8h-4v8h-5Zm5-14h5V22h-5v11Z"/>
+    <path d="M43 47V17h10v4h4v9h-3v4h3v9h-4v4H43Zm5-17h4v-8h-4v8Zm0 12h4v-8h-4v8Z"/>
+  </g>
 </svg>
