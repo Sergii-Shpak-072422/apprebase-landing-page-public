@@ -1,0 +1,24 @@
+# AppRebase
+
+> AppRebase provides Live Bubble App Migration for founders and operators with live Bubble products whose future improvements have become too slow, expensive, or risky to keep shipping inside Bubble.
+
+AppRebase moves live Bubble products into code so future changes are easier to scope, test, ship, review, extend, and hand over without blind rebuilding the product the business already depends on.
+
+The service is for live Bubble apps that still matter, still have users or business operations behind them, and still need meaningful roadmap progress. The first public step is a low-access 20-minute migration fit call. No Bubble export, editor access, admin access, credentials, secrets, or production customer data are needed for that first call.
+
+## Core Pages
+
+- [AppRebase homepage](https://apprebase.com/): Live Bubble App Migration offer, fit criteria, migration method, founder proof, FAQ, and booking flow.
+- [Privacy Policy](https://apprebase.com/privacy.html): Privacy and data-handling information for AppRebase visitors and prospects.
+- [Terms of Service](https://apprebase.com/terms.html): Terms for using the AppRebase website and services.
+
+## Contact
+
+- [Book a 20-minute migration fit call](https://cal.com/apprebase/20min): Low-access first call to see whether AppRebase should inspect the Bubble app further.
+- [Email AppRebase](mailto:hello@apprebase.com): Contact email for AppRebase.
+- [Sergii Shpak on LinkedIn](https://www.linkedin.com/in/sergiishpak/): Founder profile.
+
+## Optional
+
+- [Sitemap](https://apprebase.com/sitemap.xml): XML sitemap for search crawlers.
+- [Robots.txt](https://apprebase.com/robots.txt): Crawl access policy.
