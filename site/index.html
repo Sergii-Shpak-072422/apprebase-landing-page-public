@@ -11,9 +11,15 @@
   <meta property="og:title" content="AppRebase | Live Bubble App Migration for Faster Changes">
   <meta property="og:description" content="Move a live Bubble app into code when new features, fixes, and improvements have become too slow, expensive, or risky to keep shipping inside Bubble.">
   <meta property="og:url" content="https://apprebase.com/">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://apprebase.com/apprebase-social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="AppRebase - Live Bubble App Migration. Bubble got your product live. Improving it should not be this slow, expensive, or risky.">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="AppRebase | Live Bubble App Migration for Faster Changes">
   <meta name="twitter:description" content="Move a live Bubble app into code when new features, fixes, and improvements have become too slow, expensive, or risky to keep shipping inside Bubble.">
+  <meta name="twitter:image" content="https://apprebase.com/apprebase-social-card.png">
+  <meta name="twitter:image:alt" content="AppRebase - Live Bubble App Migration. Bubble got your product live. Improving it should not be this slow, expensive, or risky.">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" sizes="any">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,17 +28,41 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "AppRebase",
-      "url": "https://apprebase.com/",
-      "logo": "https://apprebase.com/apprebase-logo.svg",
-      "description": "AppRebase moves live Bubble apps into code when new features, fixes, and improvements have become too slow, expensive, or risky to keep shipping inside Bubble.",
-      "email": "hello@apprebase.com",
-      "founder": {
-        "@type": "Person",
-        "name": "Sergii Shpak",
-        "sameAs": "https://www.linkedin.com/in/sergiishpak/"
-      }
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://apprebase.com/#organization",
+          "name": "AppRebase",
+          "url": "https://apprebase.com/",
+          "logo": "https://apprebase.com/apprebase-logo.svg",
+          "image": "https://apprebase.com/apprebase-social-card.png",
+          "description": "AppRebase moves live Bubble apps into code when new features, fixes, and improvements have become too slow, expensive, or risky to keep shipping inside Bubble.",
+          "email": "hello@apprebase.com",
+          "founder": {
+            "@id": "https://apprebase.com/#sergii-shpak"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://apprebase.com/#sergii-shpak",
+          "name": "Sergii Shpak",
+          "sameAs": "https://www.linkedin.com/in/sergiishpak/"
+        },
+        {
+          "@type": "Service",
+          "@id": "https://apprebase.com/#live-bubble-app-migration",
+          "name": "Live Bubble App Migration",
+          "serviceType": "Live Bubble app migration",
+          "provider": {
+            "@id": "https://apprebase.com/#organization"
+          },
+          "areaServed": "Worldwide",
+          "category": "Live Bubble App Migration",
+          "image": "https://apprebase.com/apprebase-social-card.png",
+          "description": "AppRebase moves live Bubble products into code so future changes are easier to scope, test, ship, and hand over without blind rebuilding the product the business already depends on.",
+          "url": "https://apprebase.com/"
+        }
+      ]
     }
   </script>
 
